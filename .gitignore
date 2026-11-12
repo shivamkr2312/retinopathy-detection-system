@@ -1,0 +1,32 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Dataset
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Deep learning models
+*.h5
+*.keras
+*.tflite
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
