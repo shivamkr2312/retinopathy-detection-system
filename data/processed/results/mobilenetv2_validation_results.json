@@ -1,0 +1,10 @@
+{
+    "accuracy": 0.6657571623465212,
+    "macro_precision": 0.49914912313198984,
+    "macro_recall": 0.5395778273551408,
+    "macro_f1": 0.49246519798763727,
+    "quadratic_weighted_kappa": 0.7698676417961345,
+    "validation_images": 733,
+    "validation_split_source": "Notebook 05 saved split",
+    "image_size": 224
+}

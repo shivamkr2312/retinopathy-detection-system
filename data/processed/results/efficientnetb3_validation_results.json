@@ -1,0 +1,7 @@
+{
+    "accuracy": 0.7408,
+    "macro_precision": 0.598,
+    "macro_recall": 0.6032,
+    "macro_f1": 0.5735,
+    "quadratic_weighted_kappa": 0.837
+}

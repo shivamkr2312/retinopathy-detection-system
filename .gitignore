@@ -1,32 +1,88 @@
 
-# Python virtual environment
-venv/
-.venv/
-
-# Dataset
-data/
-
-# Python cache
+# ==========================================
+# PYTHON
+# ==========================================
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# Deep learning models
-*.h5
-*.keras
-*.tflite
-*.pt
-*.pth
-*.onnx
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment variables
+# ==========================================
+# SECRETS AND ENVIRONMENT VARIABLES
+# ==========================================
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+token.json
+secrets/
 
-# VS Code
+# ==========================================
+# DATASETS AND PRIVATE IMAGES
+# ==========================================
+data/raw/
+notebooks/data/
+backend/outputs/uploads/
+*.dcm
+
+# ==========================================
+# MODEL WEIGHTS AND CHECKPOINTS
+# ==========================================
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+*.pb
+
+# ==========================================
+# GENERATED MODEL OUTPUTS
+# ==========================================
+data/processed/models/
+data/processed/augmentation/
+data/processed/final/*.keras
+data/processed/results/gradcam/
+data/processed/results/*predictions.csv
+data/processed/results/*errors.csv
+
+# ==========================================
+# FRONTEND
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================================
+# IDE AND OPERATING SYSTEM
+# ==========================================
 .vscode/
-
-# Operating system
+.idea/
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp

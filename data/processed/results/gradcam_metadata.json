@@ -1,0 +1,9 @@
+{
+    "model": "hybrid_optimized_focal.keras",
+    "validation_images": 733,
+    "reproduced_validation_accuracy": 0.781718963165075,
+    "efficientnet_target_layer": "top_conv",
+    "mobilenet_target_layer": "Conv_1",
+    "output_folder": "S:\\ISP\\data\\processed\\results\\gradcam",
+    "note": "Grad-CAM highlights influential image regions for a class score; it is not a clinical explanation."
+}

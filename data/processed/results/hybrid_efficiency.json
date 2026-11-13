@@ -1,0 +1,6 @@
+{
+    "model_size_mb": 120.99686813354492,
+    "mean_single_image_inference_ms": 420.58542000086163,
+    "repeats": 10,
+    "note": "Hardware- and system-load-dependent measurement."
+}

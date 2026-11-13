@@ -1,0 +1,10 @@
+{
+    "accuracy": 0.7694406548431105,
+    "macro_precision": 0.6164361415182273,
+    "macro_recall": 0.6516263088038289,
+    "macro_f1": 0.6252764286229788,
+    "quadratic_weighted_kappa": 0.8422587779317895,
+    "validation_images": 733,
+    "validation_split_source": "Notebook 05 saved split",
+    "architecture": "EfficientNetB3 + MobileNetV2 feature fusion"
+}

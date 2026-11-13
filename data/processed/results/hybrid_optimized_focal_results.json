@@ -1,0 +1,9 @@
+{
+    "accuracy": 0.781718963165075,
+    "macro_precision": 0.6281035272517052,
+    "macro_recall": 0.6359647273416934,
+    "macro_f1": 0.6283633752109191,
+    "quadratic_weighted_kappa": 0.8475681056553859,
+    "validation_images": 733,
+    "evaluation_note": "Exploratory reuse of the validation split already used in earlier model comparisons."
+}

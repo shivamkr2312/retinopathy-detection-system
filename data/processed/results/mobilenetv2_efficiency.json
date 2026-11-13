@@ -1,0 +1,6 @@
+{
+    "model_size_mb": 22.893613815307617,
+    "mean_single_image_inference_ms": 111.6130600004908,
+    "repeats": 10,
+    "note": "Hardware-dependent measurement."
+}
